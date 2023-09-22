@@ -1,0 +1,438 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+header{
+    background-image: url(./netflix.jpg);
+    opacity: 0.75;
+    box-sizing: border-box;
+}
+
+.netflix{
+    display: flex;
+    justify-content: space-between;
+}
+
+.netflix img{
+    margin-left: 120px;
+    margin-top: -35px;
+    width: 150px;
+    height: 150px;
+}
+
+.center{
+    text-align: center;
+    height: 500px;
+    width: 1200px;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.center p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+/* main{
+    background-color: gray;
+} */
+
+/* img{
+    opacity: 0.2;
+    height: 700px;
+} */
+/* 
+h1{
+    margin: 20px 133px;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+
+#head2{
+    /* margin: 20px 133px;
+    top: 250px; 
+    position: absolute; */
+    color: white;
+    font-size: 55px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* .container{
+    position: relative;
+    display: inline-block;
+    background-color: black;
+} */
+
+/* .container2, .paragraph, .paragraph3, .paragraph4, .head6, .paragraph5, .flexquestion{
+    background-color: black;
+} */
+
+.signin{
+    font-size: 14px;
+    width: 50px;
+    height: 20px;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 3px;
+    background-color: rgb(255, 0, 0); 
+    padding: 5px 10px;
+    right: 13%;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-right: 155px;
+    margin-top: 26px;
+}
+
+
+.signin:hover{
+    color: white;
+    background-color: rgba(255, 0, 0, 0.884);
+    transition: 1s;
+}
+
+/* .head{
+    position: absolute;
+    display: inline;
+} */
+
+/* .watch{
+    margin: 20px 133px;
+    top: 340px;
+    color: white;
+    position: absolute;
+    font-size: 25px;
+    right: 370px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.email{
+    margin: 20px 133px;
+    top: 395px;
+    color: white;
+    position: absolute;
+    font-size: 22px;
+    right: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* .input{
+    margin: 20px 133px;
+    top: 430px;
+    position: absolute;
+    right: 570px;
+    width: 300px;
+} */
+
+.large{
+    height: 55px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.733);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    color: white;
+    margin-right: 5px;
+}
+
+/* .get{
+    margin: 20px 133px;
+    position: absolute;
+    top: 430px;
+    width: 200px;
+    right: 263px;
+} */
+
+.button{
+    border: 1px solid rgba(255, 0, 0, 0.644);
+    width: 200px;
+    height: 55px;
+    color: white;
+    padding: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: rgba(255, 0, 0, 0.767);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.button:hover{
+    color: white;
+    background-color: rgba(255, 0, 0, 0.575);
+    transition: 1s;
+}
+
+.para, #head3, .head4, .head5, #text, #text2, #flextext, .text3{
+    color: white;
+}
+
+.paragraph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-color: black;
+}
+
+.paragraph > img{
+     height: 400px;
+}
+
+div > div{
+    margin-bottom: 40px;
+}
+
+#head3{
+    font-size: 55px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 10px;
+}
+
+.para{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img{
+    opacity: 1;
+    margin-left: 40px;
+}
+
+.paragraph2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    height: 520px;
+}
+
+.head4{
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-right: 250px;
+    margin-bottom: 150px;
+}
+
+.paragraph2 img{
+    height: 400px;
+    opacity: 1;
+    margin-bottom: 50px;
+}
+
+#text{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -130px;
+}
+
+.move{
+    margin-bottom: 80px;
+}
+
+.paragraph3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    margin-right: 500px;
+}
+
+.head5{
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#stream{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 120px;
+    margin-top: -30px;
+}
+
+.paragraph4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 520px;
+    margin-left: -20px;
+}
+
+.paragraph4 img{
+    height: 400px;
+    opacity: 1;
+}
+
+#text2{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -25px;
+}
+
+.head6{
+    text-align: center;
+    margin-top: 70px;
+    color: white;
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.flexquestion{
+    display: flex;
+    flex-direction: column;
+}
+
+#flex{
+    border: 1px solid black;
+    width: 75%;
+    height: 90px;
+    margin-left: 170px;
+    background-color: rgba(128, 128, 128, 0.445);
+    box-sizing: border-box;
+    padding: 29px 20px;
+    margin-bottom: 7px;
+}
+
+#flex:hover{
+    color: white;
+    background-color: rgba(128, 128, 128, 0.623);
+    transition: 1s;
+}
+
+#flextext{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.paragraph5{
+    text-align: center;
+}
+
+.text3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.address{
+    height: 55px;
+    width: 380px;
+    background-color: rgba(0, 0, 0, 0.733);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 0 12px;
+    box-sizing: border-box;
+    /* margin-right: -70px; */
+    box-sizing: border-box;
+    color: white;
+}
+
+.button2{
+    cursor: pointer;
+    width: 200px;
+    height: 53px;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgba(255, 0, 0, 0.842);
+    border: 1px solid red;
+    border-radius: 3px;
+    color: white;
+}
+
+.button2:hover{
+    color: white;
+    background-color: rgba(255, 0, 0, 0.603);
+    transition: 1s;
+}
+
+.endofmain{
+    height: 900px;
+}
+
+.footer{
+    list-style-type: none;
+    margin: 50px 50px 10px 100px;
+}
+
+.footerlink{
+    color: rgb(172, 171, 171);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.ballpoint{
+    margin-top: 16px;
+}
+
+.select{
+    margin-top: 20px;
+}
+
+#select{
+    background-color: rgba(0, 0, 0, 0.356);
+    width: 130px;
+    color: white;
+    height: 40px;
+    padding: 6px;
+    border-radius: 3px;
+}
+
+.naij{
+    color: rgb(172, 171, 171);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer2{
+    list-style-type: none;
+    margin: 115px 50px 10px 20px;
+}
+
+.footerlink2{
+    color: rgb(172, 170, 170);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.ballpoint2{
+    margin-top: 16px;
+}
+
+.footer3{
+    list-style-type: none;
+    margin: 115px 50px 10px 20px;
+}
+
+.footerlink3{
+    color: rgb(172, 169, 169);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.ballpoint3{
+    margin-top: 16px;
+}
+
+.footer4{
+    list-style-type: none;
+    margin: 115px 50px 10px 20px;
+}
+
+.footerlink4{
+    color: rgb(172, 169, 169);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.ballpoint4{
+    margin-top: 16px;
+}
+
+.flexbox{
+    display: flex;
+}
